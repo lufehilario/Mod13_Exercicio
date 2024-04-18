@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Cards</title>
+    <link rel="stylesheet" href="./ref/bootstrap.min.css">
+    <style>
+        .card.img.overlay {
+            background-color: rgba(0, 0, 0, 0.2);
+        }   
+
+        .carousel-item img {
+            width:100%;
+             height:100%;
+             margin-bottom: 10px;;
+        }
+        .container{
+            padding: 5%;
+        }    
+        .card-img-overlay img{
+            margin-top: 50px;
+            width: 100%;
+            height: 100%;
+        }
+        .card img{
+            width: 100%;
+            height: 100%;
+        }        
+    </style>
+</head>
+<body>
+
+    
+
+    <div class="container">
+
+        <h1>CUBA</h1>
+
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel" data-bs-toggle="collapse">
+            <div class="carousel-inner">                
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img src="./images/Hotel Nacional.jpg"/>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="./images/Varadero.PNG"/>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="./images/Hotel Focsa.jpg"/>                        
+                    </div>                                
+            </div>
+
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            
+           
+        </div>
+    
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">                     
+                    <img src="./images/RED.png">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">TURISMO</h4>
+                        <h5  class="card-subtitle">conheça mais sobre...</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores.
+                        </p>
+                        <a href="#" class="btn btn-primary btn-size-sm btn-sm">Conheça Mais</a>
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">                     
+                    <img src="./images/BLUE.png">
+                    <DIV class="card-img-overlay">
+                        <h4 class="card-title">HISTÓRIA</h4>
+                        <h5  class="card-subtitle">conheça mais sobre...</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores.
+                        </p>
+                        <a href="#" class="btn btn-primary btn-sm">Conheça Mais</a>
+
+                    </DIV>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">                     
+                    <img src="./images/WHITE.png">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">ARQUITETURA</h4>
+                        <h5  class="card-subtitle">conheça mais sobre...</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores.
+                        </p>
+                        <a href="#" class="btn btn-primary btn-sm">Conheça Mais</a>
+                    </div>
+                    
+                </div>
+            </div>
+           
+        </div>
+        
+    </div>
+
+
+    <script src="./ref/bootstrap.bundle.min.js"></script>
+</body>
+</html>
